@@ -7,6 +7,14 @@
       "android",
       "web"
     ],
+    "ios": {
+      "bundleIdentifier": "com.abc.xyz",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.abc.xyz",
+      "versionCode": 1
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,9 +29,7 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
+   
     "description": ""
   }
 }

@@ -24,7 +24,7 @@ import Loginscreen from'./screens/Loginscreen';
 import Loadingscreen from'./screens/Loadingscreen';
 import Homescreen from './screens/Homescreen';
 import Displayscreen from './screens/Displayscreen';
-//import Stepscreen from './screens/Stepscreen';
+import Stepscreen from './screens/Stepscreen';
 
 import * as firebase from 'firebase';
 import {firebaseConfig } from './config';
@@ -64,7 +64,7 @@ const myswitch=createSwitchNavigator({
   Loading:Loadingscreen,
   Display:Displayscreen,
   Home:Homescreen,
- // Step:Stepscreen,
+  Step:Stepscreen,
  // stack:mystack,
  Login:Loginscreen,
  //Signup:Signupscreen,

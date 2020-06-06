@@ -58,6 +58,17 @@ export default class Displayscreen extends Component
                              > 
                             <Text>Profile</Text>     
                            </Button>
+                           <Button icon="account-circle"
+                            //style={styles.inputstyle}
+                            style={{ margin:5,
+                              marginLeft:100,
+                              }} 
+                            mode="contained"
+                            theme={theme}
+                           onPress={()=>this.props.navigation.navigate("Step")}
+                             > 
+                            <Text>Steps</Text>     
+                           </Button>
                    
            
    </View>
@@ -86,7 +97,7 @@ const styles=StyleSheet.create(
             {
                 margin:5,
                 marginLeft:230,
-                marginTop:550,
+                marginTop:500,
                 justifyContent:"space-between"
 
             },
